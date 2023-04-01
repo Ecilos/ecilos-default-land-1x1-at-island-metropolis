@@ -1,3 +1,6 @@
 [submodule "Packages"]
 	path = Packages
 	url = https://github.com/Ecilos/ecilos-unity-packages-lands.git
+[submodule "ProjectSettings"]
+	path = ProjectSettings
+	url = https://github.com/Ecilos/ecilos-unity-project-settings-lands
