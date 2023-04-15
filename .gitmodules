@@ -3,4 +3,7 @@
 	url = https://github.com/Ecilos/ecilos-unity-packages-lands.git
 [submodule "ProjectSettings"]
 	path = ProjectSettings
-	url = https://github.com/Ecilos/ecilos-unity-project-settings-lands
+	url = https://github.com/Ecilos/ecilos-unity-project-settings-lands.git
+[submodule "Scripts"]
+	path = Assets/Scripts
+	url = https://github.com/Ecilos/ecilos-unity-assets-scripts-lands.git
