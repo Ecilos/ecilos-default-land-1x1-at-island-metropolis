@@ -10,7 +10,7 @@ and can be used as a template to customize your own land.
 - [IPFS][ipfs-install]
 - [Unity][unity-dl]
 
-## Usage
+## Build
 
 To open the project, follow these steps:
 
@@ -18,8 +18,16 @@ To open the project, follow these steps:
 
        git clone --recursive https://github.com/Ecilos/ecilos-land-1x1-at-island-metropolis.git
 
-2. In _Unity Hub_, _Add project from disk_ and select cloned repository.
-3. Open the project.
+1. Configure Git Annex to use IPFS as special remote store:
+
+       git annex enableremote ipfs
+
+1, Download required assets from IPFS storage:
+
+       git annex copy --from ipfs
+
+1. In _Unity Hub_, _Add project from disk_ and select cloned repository.
+1. Open the project.
 
 ## Contributing
 
