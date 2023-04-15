@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-00-Empty.unity
+    guid: e721006638ea94cf2a4f539ebc920b78
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-01.unity
+    guid: 923b9333ee8314493b34357b64dc6d60
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-02.unity
+    guid: 13e368b23faa544468b4cb3ea2cb38d2
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-03.unity
+    guid: 2bcaa8b60a8f349c4840de6f1621055e
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-04.unity
+    guid: f5dafd458c03b4e8da5c8d4cff3d5c14
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-05.unity
+    guid: 932a5d4e7e24b4ffeb12506c5bfa309b
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-06.unity
+    guid: cc31f8407cea746daba4c65cffaf7f60
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-07.unity
+    guid: e96d98c5c666542489d716af8ceb7a3c
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-08.unity
+    guid: aa5eeacee1f3c428099390e360d5020f
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-09.unity
+    guid: 14d02caa48b6a4bbc87808f5f137753f
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-10.unity
+    guid: 11aed60c020c74e078daf80911758761
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-11.unity
+    guid: aa2c2504d10fa4bbfb716771577b98f8
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-12.unity
+    guid: a5894c9c5297a4dd8bfe3fd7166e13cf
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-13.unity
+    guid: 448b8f426622e48c58457ad52e938e3b
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-14.unity
+    guid: 61e0f1560828a4913a99b191b902c83c
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-15.unity
+    guid: 097103f78d4e14f108dbae6bfb22d387
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-16.unity
+    guid: bf27b2c6c66614b569f951268b74ba47
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-17.unity
+    guid: 26711203a9a244b4bb026928b67a79c7
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-18.unity
+    guid: 5dd5a2503d019413a89edeff02b8a2f0
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-19.unity
+    guid: 5c31d38b7a9974d45892df4ea400d3d7
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-20.unity
+    guid: 2c52f1b9c78904688b2b5988669d5054
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-21.unity
+    guid: 1b0bc0ae2055b4f9f80fbbb55e2a643c
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-22.unity
+    guid: e333ff6cd12314dc0b812fc182578f72
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-23.unity
+    guid: ad54a45a8a1104142ada94ae8989c772
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-24.unity
+    guid: 30eb3a00b160245679619e5821f76009
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-25.unity
+    guid: 3658b692a3efe443c879faa8d2106078
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-26.unity
+    guid: faa3f5e94cec14638bfbc2c33c72f0f1
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-27.unity
+    guid: 6a76862ff36684fa1b23824a0dabaf78
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-28.unity
+    guid: e6584633a880f4385b2d37127e0d380b
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-29.unity
+    guid: 58ecfddc74f6d44c2adb4206914ab788
+  - enabled: 1
+    path: Assets/Scenes/Metropolis/Land1x1-30.unity
+    guid: a4c09bba9762e44edaeefd829ee06739
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
