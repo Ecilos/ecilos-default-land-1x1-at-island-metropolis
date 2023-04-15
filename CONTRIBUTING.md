@@ -60,6 +60,17 @@ why the image could not be compressed.
 
 ## Unity
 
-## Assets
+### IPFS
 
 Ensure all required assets for a scene are uploaded to Git IPFS.
+
+To add new files, run:
+
+    git annex add path/to/file
+    git commit path/to/file
+
+To copy files to your computer's local ipfs object store, run:
+
+    git annex copy --to ipfs
+
+Read more: <https://git-annex.branchable.com/special_remotes/ipfs/>
