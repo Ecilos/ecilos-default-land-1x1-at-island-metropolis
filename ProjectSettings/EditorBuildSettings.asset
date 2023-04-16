@@ -98,5 +98,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Metropolis/Land1x1-30.unity
     guid: a4c09bba9762e44edaeefd829ee06739
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 19a0124bfbff648bea329f2786a829af, type: 2}
   m_UseUCBPForAssetBundles: 0
