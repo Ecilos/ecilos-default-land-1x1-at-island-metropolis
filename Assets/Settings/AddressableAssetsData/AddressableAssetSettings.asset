@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
   m_Name: AddressableAssetSettings
   m_EditorClassIdentifier: 
-  m_DefaultGroup: 3d7db8e5add0a4196bc80d63d7c0e07d
+  m_DefaultGroup: 37756954338af45b5bc5efb37964becb
   m_currentHash:
     serializedVersion: 2
     Hash: 00000000000000000000000000000000
@@ -38,7 +38,7 @@ MonoBehaviour:
     m_Id: 
   m_RemoteCatalogLoadPath:
     m_Id: 
-  m_ContentStateBuildPathProfileVariableName: 
+  m_ContentStateBuildPathProfileVariableName: <default settings path>
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
@@ -46,6 +46,7 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: de124673c4bc8425b80571e072d05728, type: 2}
   - {fileID: 11400000, guid: cd9732f6f743a4a9ca5c2c8810e93c9f, type: 2}
+  - {fileID: 11400000, guid: 1f683180a3db04ad786630d5951bd894, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -79,6 +80,20 @@ MonoBehaviour:
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: 85c042165de0146e7950649ab7f57aa3
         m_Value: ipfs
+      - m_Id: e990167d78bfd47fdaf5ff65d7b908d0
+        m_Value: 'http://[PrivateIpAddress]:[HostingServicePort]'
+    - m_InheritedParent: 
+      m_Id: 1c4b2e537d7304eda94c5ecd4832c6ea
+      m_ProfileName: New Profile
+      m_Values:
+      - m_Id: 24f8d18ed3cd248eaabe1d7ebaecd979
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 602d71beca32e4263a20425ae0b0cc68
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: bd2616efa4cf044e3abb16f06ccf10b9
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 85c042165de0146e7950649ab7f57aa3
+        m_Value: 'ServerData/[BuildTarget]'
       - m_Id: e990167d78bfd47fdaf5ff65d7b908d0
         m_Value: 'http://[PrivateIpAddress]:[HostingServicePort]'
     m_ProfileEntryNames:
@@ -119,5 +134,6 @@ MonoBehaviour:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
     m_NextInstanceId: 0
-    m_RegisteredServiceTypeRefs: []
+    m_RegisteredServiceTypeRefs:
+    - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor
     m_PingTimeoutInMilliseconds: 5000
