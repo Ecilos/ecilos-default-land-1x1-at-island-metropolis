@@ -20,6 +20,9 @@ To open the project, follow these steps:
 
 1. Configure Git Annex to use IPFS as special remote store:
 
+       cd ecilos-land-1x1-at-island-metropolis
+       git annex init
+       git annex initremote ipfs type=external externaltype=ipfs encryption=none
        git annex enableremote ipfs
 
 1, Download required assets from IPFS storage:
