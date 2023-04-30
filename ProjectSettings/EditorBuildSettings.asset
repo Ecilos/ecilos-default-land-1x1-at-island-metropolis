@@ -95,7 +95,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Metropolis/Land1x1-29.unity
     guid: 58ecfddc74f6d44c2adb4206914ab788
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Metropolis/Land1x1-30.unity
     guid: a4c09bba9762e44edaeefd829ee06739
   m_configObjects:
