@@ -15,9 +15,9 @@ MonoBehaviour:
   m_DefaultGroup: 37756954338af45b5bc5efb37964becb
   m_currentHash:
     serializedVersion: 2
-    Hash: eb082bf74783a189f9eadc2da36f3dff
+    Hash: 206bca6adc09c84fb5efb7d1e50d5161
   m_OptimizeCatalogSize: 0
-  m_BuildRemoteCatalog: 0
+  m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
   m_CatalogRequestsTimeout: 0
   m_DisableCatalogUpdateOnStart: 0
@@ -25,20 +25,20 @@ MonoBehaviour:
   m_UniqueBundleIds: 0
   m_NonRecursiveBuilding: 1
   m_CCDEnabled: 0
-  m_maxConcurrentWebRequests: 3
+  m_maxConcurrentWebRequests: 5
   m_ContiguousBundles: 1
-  m_StripUnityVersionFromBundleBuild: 0
+  m_StripUnityVersionFromBundleBuild: 1
   m_DisableVisibleSubAssetRepresentations: 0
-  m_ShaderBundleNaming: 0
+  m_ShaderBundleNaming: 1
   m_ShaderBundleCustomNaming: 
   m_MonoScriptBundleNaming: 0
   m_CheckForContentUpdateRestrictionsOption: 0
   m_MonoScriptBundleCustomNaming: 
   m_RemoteCatalogBuildPath:
-    m_Id: 
+    m_Id: 85c042165de0146e7950649ab7f57aa3
   m_RemoteCatalogLoadPath:
-    m_Id: 
-  m_ContentStateBuildPathProfileVariableName: <default settings path>
+    m_Id: e990167d78bfd47fdaf5ff65d7b908d0
+  m_ContentStateBuildPathProfileVariableName: Remote.BuildPath
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
       - m_Id: 85c042165de0146e7950649ab7f57aa3
         m_Value: 'ServerData/[BuildTarget]'
       - m_Id: e990167d78bfd47fdaf5ff65d7b908d0
-        m_Value: 'http://[PrivateIpAddress]:[HostingServicePort]'
+        m_Value: 'http://[PrivateIpAddress]'
     - m_InheritedParent: 
       m_Id: aecaab10990b84fab92d1fab8315c979
       m_ProfileName: IPFS
@@ -79,23 +79,9 @@ MonoBehaviour:
       - m_Id: bd2616efa4cf044e3abb16f06ccf10b9
         m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: 85c042165de0146e7950649ab7f57aa3
-        m_Value: ipfs
-      - m_Id: e990167d78bfd47fdaf5ff65d7b908d0
-        m_Value: 'http://[PrivateIpAddress]:[HostingServicePort]'
-    - m_InheritedParent: 
-      m_Id: 1c4b2e537d7304eda94c5ecd4832c6ea
-      m_ProfileName: New Profile
-      m_Values:
-      - m_Id: 24f8d18ed3cd248eaabe1d7ebaecd979
-        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
-      - m_Id: 602d71beca32e4263a20425ae0b0cc68
-        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
-      - m_Id: bd2616efa4cf044e3abb16f06ccf10b9
-        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
-      - m_Id: 85c042165de0146e7950649ab7f57aa3
         m_Value: 'ServerData/[BuildTarget]'
       - m_Id: e990167d78bfd47fdaf5ff65d7b908d0
-        m_Value: 'http://[PrivateIpAddress]:[HostingServicePort]'
+        m_Value: /
     m_ProfileEntryNames:
     - m_Id: 24f8d18ed3cd248eaabe1d7ebaecd979
       m_Name: BuildTarget
@@ -118,92 +104,23 @@ MonoBehaviour:
     - default
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
-  - {fileID: 11400000, guid: 052926dcb117e4fa589265bf540c7d2e, type: 2}
+  - {fileID: 11400000, guid: 36f7c62980e234ed6a28dd88f2c82c4a, type: 2}
   m_InitializationObjects: []
   m_CertificateHandlerType:
     m_AssemblyName: 
     m_ClassName: 
-  m_ActivePlayerDataBuilderIndex: 3
+  m_ActivePlayerDataBuilderIndex: 4
   m_DataBuilders:
   - {fileID: 11400000, guid: 5349e53dc99d64b8cbf6da48645e2bca, type: 2}
   - {fileID: 11400000, guid: 57fdcb8e0cdbf476dba58d26d3a523cb, type: 2}
   - {fileID: 11400000, guid: 549aba14f09424c0299d212b74caf979, type: 2}
   - {fileID: 11400000, guid: 4092dc879032c44bfbbf62cba929932e, type: 2}
+  - {fileID: 11400000, guid: 4411d899375314ecf8b2b40946faa0f0, type: 2}
   m_ActiveProfileId: aecaab10990b84fab92d1fab8315c979
   m_HostingServicesManager:
-    m_HostingServiceInfos:
-    - classRef: EcilosIpfsHostingService, Assembly-CSharp
-      dataStore:
-        m_SerializedData:
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.String
-          m_Data: localhost
-          m_Key: IpfsHostname
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.String
-          m_Data: Library/com.unity.addressables/aa/OSX/StandaloneOSX;ipfs
-          m_Key: ContentRoot
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.Boolean
-          m_Data: False
-          m_Key: IsEnabled
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.String
-          m_Data: IPFS@localhost
-          m_Key: DescriptiveName
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.Int32
-          m_Data: 0
-          m_Key: InstanceId
-    - classRef: EcilosIpfsHostingService, Assembly-CSharp
-      dataStore:
-        m_SerializedData:
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.String
-          m_Data: dweb.link
-          m_Key: IpfsHostname
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.String
-          m_Data: Library/com.unity.addressables/aa/OSX/StandaloneOSX;ipfs
-          m_Key: ContentRoot
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.Boolean
-          m_Data: False
-          m_Key: IsEnabled
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.String
-          m_Data: IPFS@dweb.link
-          m_Key: DescriptiveName
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.Int32
-          m_Data: 1
-          m_Key: InstanceId
-    - classRef: EcilosIpfsHostingService, Assembly-CSharp
-      dataStore:
-        m_SerializedData:
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.String
-          m_Data: ipfs.io
-          m_Key: IpfsHostname
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.String
-          m_Data: Library/com.unity.addressables/aa/OSX/StandaloneOSX;ipfs
-          m_Key: ContentRoot
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.Boolean
-          m_Data: False
-          m_Key: IsEnabled
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.String
-          m_Data: IPFS@ipfs.io
-          m_Key: DescriptiveName
-        - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
-          m_ClassName: System.Int32
-          m_Data: 2
-          m_Key: InstanceId
+    m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
     m_NextInstanceId: 3
     m_RegisteredServiceTypeRefs:
     - UnityEditor.AddressableAssets.HostingServices.HttpHostingService, Unity.Addressables.Editor
-    - EcilosIpfsHostingService, Assembly-CSharp
     m_PingTimeoutInMilliseconds: 5000
